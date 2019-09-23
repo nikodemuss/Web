@@ -1,4 +1,4 @@
-document.getElementById("im").innerHTML = "0";
+document.getElementById("im").innerHTML = "Nikodemus Stanley";
 changeText();
 
 function sleep(ms) {
@@ -9,11 +9,28 @@ async function changeText() {
 
     while (true) {
         // let i = 1;
-        setTimeout(() => { document.getElementById("im").innerHTML = "1"; console.log("1");}, 2000);
+        setTimeout(() => {
+            document.getElementById("hello").innerHTML = "Hello I'm";
+            document.getElementById("im").innerHTML = "Nikodemus Stanley";
+            console.log("Nikodemus Stanley");
+        }
+            , 2000);
         await sleep(2000);
-        setTimeout(() => { document.getElementById("im").innerHTML = "2"; console.log("2"); }, 4000);
+
+        setTimeout(() => {
+            document.getElementById("im").innerHTML = "Computer Science Student";
+            document.getElementById("hello").innerHTML = "Hello I'm a";
+            console.log("Computer Science Student");
+        }
+            , 4000);
         await sleep(2000);
-        setTimeout(() => { document.getElementById("im").innerHTML = "3"; console.log("3"); }, 6000);
+
+        setTimeout(() => {
+            document.getElementById("im").innerHTML = "Software Engineer";
+            document.getElementById("hello").innerHTML = "Hello I'm a";
+            console.log("Software Engineer");
+        }
+            , 6000);
         await sleep(2000);
     }
 }
