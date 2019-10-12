@@ -1,5 +1,9 @@
 .bg {
-    background: black;
+    background-image: url(../img/background.jpg);
+    background-color: #1e1e1e;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .text-title {
