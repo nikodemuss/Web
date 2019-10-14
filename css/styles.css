@@ -22,6 +22,11 @@ i.fab {
   color: #444444;
 }
 
+i.fas:hover,
+i.fab:hover {
+  color: #878787;
+}
+
 .min-vh-about{
     min-height: 75vh;
 }
